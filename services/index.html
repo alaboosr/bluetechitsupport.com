@@ -2,18 +2,29 @@
 <html lang="en">
 <head>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18163022546"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18163022546"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-18163022546');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services - BlueTech IT Support Inc.</title>
-    <meta name="description" content="Linux administration, cloud, automation, security, backup and monitoring services in Toronto.">
+    <title>IT Services - BlueTech IT Support Inc.</title>
+    <meta name="description" content="Server administration, cloud, automation, security, backup and monitoring services for Toronto businesses. Call 416-522-8658.">
+    <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
     <!-- Navigation -->
     <nav>
         <div class="nav-container">
-            <a href="/" class="logo" style="text-decoration: none;">Rafid Alaboosi</a>
+            <a href="/" class="logo">
+                <img src="/logo.png" alt="BlueTech IT Support logo">
+                <span class="logo-text">BlueTech<span class="logo-sub">IT Support</span></span>
+            </a>
             <ul class="nav-links">
                 <li><a href="/">Home</a></li>
                 <li><a href="/about/">About</a></li>
@@ -38,47 +49,43 @@
     </nav>
 
     <main class="page">
+
     <!-- Services Section -->
     <section id="services" class="services">
         <div class="container">
-            <h2 class="section-title">Services</h2>
-            <p class="section-subtitle">I offer a comprehensive range of IT services designed to meet the diverse needs of modern businesses. My core competencies include:</p>
-            
+            <h2 class="section-title">IT Services</h2>
+            <p class="section-subtitle">Everything your business needs to keep its systems fast, secure and running.</p>
+
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-icon">🖥️</div>
-                    <div class="service-title">Linux System Administration</div>
-                    <div class="service-description">Expert administration of RHEL, CentOS, and other Linux distributions with 20+ years of experience in installation, configuration, patching, and performance tuning.</div>
+                    <div class="service-title">Server Support (Windows &amp; Linux)</div>
+                    <div class="service-description">Setup, patching, troubleshooting and performance tuning for your servers, including Red Hat, CentOS and other Linux systems, backed by 20+ years of experience.</div>
                 </div>
-                
                 <div class="service-card">
                     <div class="service-icon">☁️</div>
-                    <div class="service-title">Cloud Computing</div>
-                    <div class="service-description">Proficient deployment and management on AWS, Azure, and Google Cloud platforms, enabling scalable and cost-effective infrastructure solutions.</div>
+                    <div class="service-title">Cloud Setup &amp; Management</div>
+                    <div class="service-description">Move to Azure, AWS or Google Cloud with a clear plan, and keep your cloud secure, reliable and cost-effective.</div>
                 </div>
-                
                 <div class="service-card">
                     <div class="service-icon">⚙️</div>
-                    <div class="service-title">Automation & Orchestration</div>
-                    <div class="service-description">Streamlined workflows using Ansible, SaltStack, and Kubernetes to automate tasks, reduce manual effort, and improve operational efficiency.</div>
+                    <div class="service-title">Automation</div>
+                    <div class="service-description">Stop doing the same tasks by hand. We automate routine IT work with tools like Ansible and Kubernetes, so you save time and avoid mistakes.</div>
                 </div>
-                
                 <div class="service-card">
                     <div class="service-icon">🛡️</div>
-                    <div class="service-title">Security & Compliance</div>
-                    <div class="service-description">Proactive vulnerability management, server hardening, and adherence to industry standards such as PCI compliance to ensure robust security posture.</div>
+                    <div class="service-title">Security &amp; Compliance</div>
+                    <div class="service-description">Find and fix vulnerabilities, harden your servers and meet industry standards such as PCI compliance.</div>
                 </div>
-                
                 <div class="service-card">
                     <div class="service-icon">💾</div>
-                    <div class="service-title">Backup & Disaster Recovery</div>
-                    <div class="service-description">Robust backup solutions using CommVault, NetWorker, and TSM to ensure business continuity and data protection.</div>
+                    <div class="service-title">Backup &amp; Disaster Recovery</div>
+                    <div class="service-description">Reliable backups and a tested recovery plan, so you can get back to work quickly if something goes wrong.</div>
                 </div>
-                
                 <div class="service-card">
                     <div class="service-icon">📊</div>
-                    <div class="service-title">Performance Monitoring</div>
-                    <div class="service-description">Advanced monitoring and optimization using Dynatrace and other enterprise tools to ensure optimal system performance and reliability.</div>
+                    <div class="service-title">Monitoring &amp; Performance</div>
+                    <div class="service-description">Spot problems before your customers do. We monitor your systems with enterprise tools like Dynatrace and keep them running at their best.</div>
                 </div>
             </div>
         </div>
@@ -89,7 +96,7 @@
     <section class="page-cta">
         <div class="container">
             <h2 class="section-title">Need IT Help?</h2>
-            <p class="section-subtitle">Call now for a free consultation about your servers, cloud or network.</p>
+            <p class="section-subtitle">Call to talk about your servers, cloud, security or backups.</p>
             <div class="cta-buttons">
                 <a href="tel:+14165228658" class="btn btn-primary">📞 Call 416-522-8658</a>
                 <a href="/contact/" class="btn btn-outline">Contact Details →</a>
@@ -100,9 +107,12 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <div class="footer-title">Rafid Alaboosi</div>
-            <div class="footer-subtitle">Linux System Administrator & IT Solutions Expert</div>
-            <div class="footer-copyright">© 2025 Rafid Alaboosi. All rights reserved.</div>
+            <div class="footer-title">BlueTech IT Support Inc.</div>
+            <div class="footer-subtitle">IT support for Toronto businesses</div>
+            <div class="footer-contact">
+                <a href="tel:+14165228658">📞 416-522-8658</a> · <a href="mailto:rafid123@gmail.com">✉️ rafid123@gmail.com</a>
+            </div>
+            <div class="footer-copyright">© 2026 BlueTech IT Support Inc. All rights reserved.</div>
         </div>
     </footer>
 

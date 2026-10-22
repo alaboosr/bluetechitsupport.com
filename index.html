@@ -2,18 +2,29 @@
 <html lang="en">
 <head>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18163022546"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18163022546"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-18163022546');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BlueTech IT Support Inc. - Linux System Administrator & IT Solutions Expert</title>
-    <meta name="description" content="Windows & Linux system administration and IT support in Toronto. Call 416-522-8658.">
+    <title>BlueTech IT Support Inc. - IT Support for Toronto Businesses</title>
+    <meta name="description" content="Server, cloud, security and backup support for Toronto businesses from a specialist with 20+ years of experience. Call 416-522-8658.">
+    <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
     <!-- Navigation -->
     <nav>
         <div class="nav-container">
-            <a href="/" class="logo" style="text-decoration: none;">Rafid Alaboosi</a>
+            <a href="/" class="logo">
+                <img src="/logo.png" alt="BlueTech IT Support logo">
+                <span class="logo-text">BlueTech<span class="logo-sub">IT Support</span></span>
+            </a>
             <ul class="nav-links">
                 <li><a href="/" class="active">Home</a></li>
                 <li><a href="/about/">About</a></li>
@@ -40,13 +51,12 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>Windows & Linux System Administration</h1>
-            <div class="subtitle">& IT Solutions</div>
-            <p>Building, securing, and maintaining robust IT infrastructures for optimal performance and reliability with over 20 years of experience.</p>
+            <h1>IT Support for Toronto Businesses</h1>
+            <div class="subtitle">Windows & Linux Servers · Cloud · Security · Backups</div>
+            <p>Keep your systems running, secure and backed up. BlueTech IT Support brings over 20 years of experience supporting critical systems at major Canadian banks and government to your business.</p>
             <div class="cta-buttons">
                 <a href="tel:+14165228658" class="btn btn-primary">📞 Call 416-522-8658</a>
-                <a href="/contact/" class="btn btn-outline">Get in Touch →</a>
-                <a href="/services/" class="btn btn-outline">View Services</a>
+                <a href="/services/" class="btn btn-outline">See How We Help</a>
             </div>
         </div>
     </section>
@@ -75,25 +85,60 @@
         </div>
     </section>
 
-    <!-- Stats Section -->
-    <section class="stats">
+    <!-- How we help -->
+    <section class="help-section">
         <div class="container">
-            <div class="stats-grid">
-                <div class="stat-item">
-                    <div class="stat-number">20+</div>
-                    <div class="stat-label">Years Experience</div>
+            <h2 class="section-title">How We Can Help</h2>
+            <p class="section-subtitle">Tell us what's going wrong. We'll find the cause and fix it.</p>
+            <div class="help-grid">
+                <div class="help-card">
+                    <h3>🖥️ Servers slow or going down?</h3>
+                    <p>We troubleshoot, patch and tune Windows and Linux servers so your business keeps running.</p>
                 </div>
-                <div class="stat-item">
-                    <div class="stat-number">3000+</div>
-                    <div class="stat-label">Servers Managed</div>
+                <div class="help-card">
+                    <h3>🛡️ Worried about security?</h3>
+                    <p>We harden your systems, close vulnerabilities and help you meet standards like PCI compliance.</p>
                 </div>
-                <div class="stat-item">
-                    <div class="stat-number">99.9%</div>
-                    <div class="stat-label">Uptime Achieved</div>
+                <div class="help-card">
+                    <h3>💾 Afraid of losing data?</h3>
+                    <p>We set up reliable backups and a recovery plan, so one bad day doesn't stop your business.</p>
                 </div>
-                <div class="stat-item">
-                    <div class="stat-number">24/7</div>
-                    <div class="stat-label">Support Coverage</div>
+                <div class="help-card">
+                    <h3>☁️ Moving to the cloud?</h3>
+                    <p>We plan and manage moves to Azure, AWS or Google Cloud, and keep costs under control.</p>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="/services/" class="btn btn-primary">View All Services →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why BlueTech -->
+    <section>
+        <div class="container">
+            <h2 class="section-title">Why BlueTech?</h2>
+            <p class="section-subtitle">Enterprise-level experience, at a size that works for your business.</p>
+            <div class="credentials why-grid">
+                <div class="credential-card">
+                    <div class="credential-icon">🏦</div>
+                    <div class="credential-title">Proven at Scale</div>
+                    <p>Supported critical systems at Scotiabank, Shared Services Canada and Symcor.</p>
+                </div>
+                <div class="credential-card">
+                    <div class="credential-icon">🏆</div>
+                    <div class="credential-title">Certified</div>
+                    <p>Red Hat Certified Engineer (RHCE), RHCSA, CCNA and CompTIA A+.</p>
+                </div>
+                <div class="credential-card">
+                    <div class="credential-icon">🔒</div>
+                    <div class="credential-title">Security Cleared</div>
+                    <p>Holds Level II Security Screening, valid until 2031.</p>
+                </div>
+                <div class="credential-card">
+                    <div class="credential-icon">📍</div>
+                    <div class="credential-title">Local to Toronto</div>
+                    <p>Based in Toronto, with remote support available.</p>
                 </div>
             </div>
         </div>
@@ -103,7 +148,7 @@
     <section class="page-cta">
         <div class="container">
             <h2 class="section-title">Need IT Help?</h2>
-            <p class="section-subtitle">Call now for a free consultation about your servers, cloud or network.</p>
+            <p class="section-subtitle">Call to talk about your servers, cloud, security or backups.</p>
             <div class="cta-buttons">
                 <a href="tel:+14165228658" class="btn btn-primary">📞 Call 416-522-8658</a>
                 <a href="/contact/" class="btn btn-outline">Contact Details →</a>
@@ -114,9 +159,12 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <div class="footer-title">Rafid Alaboosi</div>
-            <div class="footer-subtitle">Linux System Administrator & IT Solutions Expert</div>
-            <div class="footer-copyright">© 2025 Rafid Alaboosi. All rights reserved.</div>
+            <div class="footer-title">BlueTech IT Support Inc.</div>
+            <div class="footer-subtitle">IT support for Toronto businesses</div>
+            <div class="footer-contact">
+                <a href="tel:+14165228658">📞 416-522-8658</a> · <a href="mailto:rafid123@gmail.com">✉️ rafid123@gmail.com</a>
+            </div>
+            <div class="footer-copyright">© 2026 BlueTech IT Support Inc. All rights reserved.</div>
         </div>
     </footer>
 

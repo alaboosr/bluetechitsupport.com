@@ -1,16 +1,3 @@
-// Google Ads: count a conversion each time someone taps a phone number.
-// Replace REPLACE_WITH_LABEL with the conversion label from Google Ads
-// (Goals > Conversions > your "Phone call" action > Tag setup).
-const CALL_CONVERSION = 'AW-18163022546/REPLACE_WITH_LABEL';
-
-document.querySelectorAll('a[href^="tel:"]').forEach(link => {
-    link.addEventListener('click', function() {
-        if (typeof gtag === 'function' && !CALL_CONVERSION.includes('REPLACE_WITH_LABEL')) {
-            gtag('event', 'conversion', { send_to: CALL_CONVERSION });
-        }
-    });
-});
-
 // Mobile menu functionality
 function toggleMobileMenu() {
     const mobileMenu = document.getElementById('mobileMenu');
